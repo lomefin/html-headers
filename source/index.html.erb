@@ -1,0 +1,23 @@
+
+<h1>HTTP Headers Test</h1>
+  <p>
+    Nowadays we need to add several HTTP headers to tell the browser how the assets should be linked, so we 
+    can assure we are not allowing external, malicious elements to invade our user's experience.
+  </p>
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">Same Origin</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <%= link_to 'CORP', 'corp_same_origin'%>
+        </li>
+      </ul>
+    </div>
+  </div>
+</h1>
+
+<%= link_to(
+  "Read Documentation",
+  "https://middlemanapp.com/basics/templating_language/",
+  target: "_blank"
+) %>
